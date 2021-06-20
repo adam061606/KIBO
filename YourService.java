@@ -23,7 +23,7 @@ public class YourService extends KiboRpcService {
         Bitmap image = api.getBitmapNavCam();
         String content = readQR(image);
         api.sendDiscoveredQR(content);
-        Scanner content = new Scanner(file);
+        Scanner content = new Scanner(content);
         Scanner line;
         int p;
         float x;
